@@ -1,0 +1,8 @@
+{
+	"ImportPath": "github.com/jmervine/blog",
+	"GoVersion": "go1.5",
+	"Packages": [
+		"server/server.go"
+	],
+	"Deps": []
+}

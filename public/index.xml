@@ -10,16 +10,23 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
-      <link>/about/</link>
+      <title>Quick Start</title>
+      <link>/quick-start/</link>
       <pubDate>Sat, 12 Dec 2015 13:39:29 -0800</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/quick-start/</guid>
       <description>
 
-&lt;h2 id=&#34;a-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A headline&lt;/h2&gt;
+&lt;p&gt;A basic example of a &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; generated site running on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; using a simple custom &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; static file server.&lt;/p&gt;
 
-&lt;p&gt;Some Content&lt;/p&gt;
+&lt;h4 id=&#34;requirements:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Requirements&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tools/godep&#34;&gt;Godep&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; Account&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

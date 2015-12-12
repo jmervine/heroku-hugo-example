@@ -27,6 +27,31 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/tools/godep&#34;&gt;Godep&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; Account&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&#34;using:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Using&lt;/h4&gt;
+
+&lt;p&gt;Fork and clone this repo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku create
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Making and testing content updates&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# install deps
+go get -u -v github.com/spf13/hugo
+go get -u -v github.com/tools/godep
+
+#
+make build server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Saving and pushing content updates&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &#39;content updates&#39;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

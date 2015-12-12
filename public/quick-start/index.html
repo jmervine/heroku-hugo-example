@@ -53,6 +53,31 @@
 <li><a href="https://www.heroku.com/">Heroku</a> Account</li>
 </ul>
 
+<h4 id="using:74365187ee73a0fc9c861eba57e7e72b">Using</h4>
+
+<p>Fork and clone this repo.</p>
+
+<pre><code>heroku create
+git push heroku master
+</code></pre>
+
+<p>Making and testing content updates&hellip;</p>
+
+<pre><code># install deps
+go get -u -v github.com/spf13/hugo
+go get -u -v github.com/tools/godep
+
+#
+make build server
+</code></pre>
+
+<p>Saving and pushing content updates&hellip;</p>
+
+<pre><code>git add .
+git commit -m 'content updates'
+git push heroku master
+</code></pre>
+
         </div>
 
               <footer>

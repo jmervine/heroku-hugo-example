@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on heroku hugo example</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in Hugo on heroku hugo example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Dec 2015 13:39:29 -0800</lastBuildDate>
+    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quick Start</title>
+      <link>/quick-start/</link>
+      <pubDate>Sat, 12 Dec 2015 13:39:29 -0800</pubDate>
+      
+      <guid>/quick-start/</guid>
+      <description>
+
+&lt;p&gt;A basic example of a &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; generated site running on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; using a simple custom &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; static file server.&lt;/p&gt;
+
+&lt;h4 id=&#34;requirements:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Requirements&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tools/godep&#34;&gt;Godep&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; Account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;using:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Using&lt;/h4&gt;
+
+&lt;p&gt;Fork and clone this repo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku create
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Making and testing content updates&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# install deps
+go get -u -v github.com/spf13/hugo
+go get -u -v github.com/tools/godep
+
+#
+make build server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Saving and pushing content updates&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &#39;content updates&#39;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

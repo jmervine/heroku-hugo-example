@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>heroku hugo example</title>
-    <link>/</link>
-    <description>Recent content on heroku hugo example</description>
+    <title>Sections on heroku hugo example</title>
+    <link>/section/</link>
+    <description>Recent content in Sections on heroku hugo example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Dec 2015 13:39:29 -0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/section/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Quick Start</title>
-      <link>/documentation/quick-start/</link>
+      <link>/section/section/</link>
       <pubDate>Sat, 12 Dec 2015 13:39:29 -0800</pubDate>
       
-      <guid>/documentation/quick-start/</guid>
+      <guid>/section/section/</guid>
       <description>
 
-&lt;p&gt;A basic example of a Hugo generated site running on Heroku using a simple custom Go static file server.&lt;/p&gt;
+&lt;p&gt;A basic example of a &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; generated site running on &lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; using a simple custom &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; static file server.&lt;/p&gt;
 
-&lt;h4 id=&#34;requirements:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Requirements&lt;/h4&gt;
+&lt;h4 id=&#34;requirements:3a1cfba8bd8f5909f311805a9f67ed1e&#34;&gt;Requirements&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tools/godep&#34;&gt;Godep&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt; Account&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;using:74365187ee73a0fc9c861eba57e7e72b&#34;&gt;Using&lt;/h4&gt;
+&lt;h4 id=&#34;using:3a1cfba8bd8f5909f311805a9f67ed1e&#34;&gt;Using&lt;/h4&gt;
 
 &lt;p&gt;Fork and clone this repo.&lt;/p&gt;
 

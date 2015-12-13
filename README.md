@@ -30,7 +30,7 @@ Making and testing content updates...
 go get -u -v github.com/spf13/hugo
 go get -u -v github.com/tools/godep
 
-#
+# Build and run server locally
 make build server
 ```
 

@@ -37,15 +37,48 @@
 
 
     <div class="container">
+        <h1><a href="/documentation/quick-start/">Quick Start</a></h1>
+        <span class="lead">Sat, Dec 12, 2015</span>
+        <div class="post">
+            
 
-        
-        <div>
-            <h2><a href="/documentation/quick-start/">Quick Start</a></h2>
-            <span class="lead">Sat, Dec 12, 2015</span>
-            <p><p>A basic example of a Hugo generated site running on Heroku using a simple custom Go static file server.</p>
-</p>
+<p>A basic example of a Hugo generated site running on Heroku using a simple custom Go static file server.</p>
+
+<h4 id="requirements:74365187ee73a0fc9c861eba57e7e72b">Requirements</h4>
+
+<ul>
+<li><a href="https://golang.org/">Go</a></li>
+<li><a href="https://gohugo.io/">Hugo</a></li>
+<li><a href="https://github.com/tools/godep">Godep</a></li>
+<li><a href="https://www.heroku.com/">Heroku Account</a></li>
+</ul>
+
+<h4 id="using:74365187ee73a0fc9c861eba57e7e72b">Using</h4>
+
+<p>Fork and clone this repo.</p>
+
+<pre><code>heroku create
+git push heroku master
+</code></pre>
+
+<p>Making and testing content updates&hellip;</p>
+
+<pre><code># install deps
+go get -u -v github.com/spf13/hugo
+go get -u -v github.com/tools/godep
+
+#
+make build server
+</code></pre>
+
+<p>Saving and pushing content updates&hellip;</p>
+
+<pre><code>git add .
+git commit -m 'content updates'
+git push heroku master
+</code></pre>
+
         </div>
-        
 
               <footer>
         <nav class="navbar navbar-default">
@@ -64,9 +97,9 @@
         </div>
       </footer>
 
-
-    </div>
-
+ 
+     </div>
+     
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/bootswatch.js"></script>

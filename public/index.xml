@@ -42,8 +42,8 @@ git push heroku master
 go get -u -v github.com/spf13/hugo
 go get -u -v github.com/tools/godep
 
-#
-make build server
+# Build site and server, then run server locally
+make
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Saving and pushing content updates&amp;hellip;&lt;/p&gt;

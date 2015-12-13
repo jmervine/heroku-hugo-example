@@ -1,13 +1,13 @@
 HEROKU_APP_URI?=
 
-default: build build/server server
+default: build server run
 
 build:
-	hugo --baseURL="$(HEROKU_APP_URI)" --theme=bootswatch
+	-hugo --baseURL="$(HEROKU_APP_URI)" --theme=bootswatch
 
-build/server:
+server:
 	godep save -r server/server.go
 	cd server; go build
 
-server: build/server
+run:
 	server/server

@@ -32,8 +32,8 @@ Making and testing content updates...
 go get -u -v github.com/spf13/hugo
 go get -u -v github.com/tools/godep
 
-#
-make build server
+# Build site and server, then run server locally
+make
 ```
 
 Saving and pushing content updates...
